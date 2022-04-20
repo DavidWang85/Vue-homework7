@@ -12,7 +12,7 @@
               </div>
               <div class="card-footer">
                 <router-link
-                  :to="`/user/article/${article.id}`"
+                  :to="`/article/${article.id}`"
                   v-if="article.isPublic"
                   class="btn btn-outline-primary"
                 >
